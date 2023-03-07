@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 #main-navbar {
   background-color: #27445C;
   overflow: hidden;
@@ -43,4 +45,7 @@
 
 #titlecss {
   text-align: center;
+  font-family: 'Righteous', cursive;
+
 }
+  
