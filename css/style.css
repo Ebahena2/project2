@@ -59,7 +59,7 @@
  h2{
   text-decoration: underline;
   font-family: Times New Roman;
-  font-size: 20px;
+  font-size: 30px;
 } 
 #infocss p {
   padding: 0px;
@@ -89,12 +89,43 @@ body {
 }
 
 
+/*css for Locations page*/
+
+#location-body {
+  background-color: gainsboro;
+}
+#location-body p {
+  font-size: 13px;
+}
+#location-body li {
+  font-weight: bold;
+}
+ 
+ 
+#images {
+  width: 250px;
+  height: 300px;
+}
+
+
+
+/*css for hobbies page*/
+#hobby-body {
+  background-color: #a2b0a8;
+}
+
+
+#hobby-body p {
+  font-size: 13px;
+}
+
 
 
 
 
 footer {
   clear: both;
+  bottom: 0;
   overflow: hidden;
   width: 100%;
   text-align: center;
@@ -104,10 +135,10 @@ footer {
   
 }
 
+
 footer p {
   margin: 5px;
   padding: 0px;
-
 }
   
   
