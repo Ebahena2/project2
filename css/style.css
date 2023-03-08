@@ -2,6 +2,8 @@
 #main-navbar {
   background-color: #27445C;
   overflow: hidden;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
 }
 
 #nav-container {
@@ -40,15 +42,42 @@
 
 #onpage {
   text-decoration: underline; 
+  text-decoration-thickness: 3px;
 }
 
 #titlecss {
   text-align: center;
   font-family: 'Righteous', cursive;
 }
+
+
+
+
+
  
  
 body {
   background-color: #FCFBF4;
   
 }
+
+
+
+
+
+
+footer {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  background-color: #27445C;
+  color: white;
+}
+
+footer p {
+  margin: 5px;
+  padding: 0px;
+  border-bottom: 0px;
+}
+  
+  
