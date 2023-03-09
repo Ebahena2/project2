@@ -99,7 +99,79 @@ body {
 }
 #location-body li {
   font-weight: bold;
+  list-style: none;
 }
+ .cabocss {
+   border: 1px;
+   margin: 1rem;
+   padding: 2rem 2rem;
+   text-align: left;
+ }
+ 
+ .caboinfo {
+   display: inline-block;
+   border: 1px;
+   padding: 1rem 1rem;
+   vertical-align: middle;
+   }
+   
+ .uscss {
+   border: 1px;
+   margin: 1rem;
+   padding: 2rem 2rem;
+   text-align: left;
+   }
+  
+  .usinfo {
+    display: inline-block;
+    border: 1px;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+  
+  .niagracss {
+    border: 1px;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: left;
+  }
+  
+  .niagrainfo {
+    display: inline-block;
+    border: 1px;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+
+  }
+ 
+ .cancuncss{
+   border: 1px;
+   margin: 1rem;
+   padding: 2rem 2rem;
+   text-align: left;
+ }
+ 
+ .cancuninfo {
+   display: inline-block;
+   border: 1px;
+   padding: 1rem 1rem;
+   vertical-align: middle;
+ }
+ 
+
+ 
+ .pariscss {
+   border: 1px;
+   margin: 1rem;
+   padding: 2rem 2rem;
+   text-align: left;
+ }
+ 
+ .parisinfo {
+   display: inline-block;
+   padding: 1rem 1rem;
+   vertical-align: middle;
+ }
  
  
 #images {
@@ -117,6 +189,30 @@ body {
 
 #hobby-body p {
   font-size: 13px;
+}
+
+#video {
+  height: 250px;
+  width: 350px;
+}
+
+#soccermain {
+  border: 1px;
+  
+}
+
+#soccerinfo {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  border-right: 1px;
+}
+
+#soccerpic {
+  margin-left: 50%;
+  border-left: 1px;
+  padding: 10px;
+  line-height; 2em;
 }
 
 
