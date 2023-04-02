@@ -62,7 +62,7 @@
   font-size: 30px;
 } 
 #infocss p {
-  padding: 0px;
+  padding: 5px;
   margin: 0px;
   border: 0px;
   font-size: 15px;
@@ -76,6 +76,7 @@
  body ul li{
    font-family: Times New Roman;
    font-size: 15px;
+   margin: 10px;
  }
  
  body ol{
@@ -119,6 +120,7 @@ body {
  .uscss {
    float: left;
    border: 3px;
+   margin: 2rem;
    margin: 2rem;
    padding: 2rem 2rem;
    text-align: center;
@@ -184,15 +186,22 @@ body {
 .images {
   width: 250px;
   height: 300px;
+  border: 3px solid;
+  
 }
 
-
+.images:hover{
+  border: 5px groove #40E0D0;
+  color: #ff7a59;
+  background-color: #fff;
+}
 
 /*css for hobbies page*/
+
+
 #hobby-body {
   background-color: #a2b0a8;
 }
-
 
 #hobby-body p {
   font-size: 13px;
@@ -222,26 +231,37 @@ body {
   line-height: 2em;
 }
 
+#moviecss {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  border-right: 1px;
+}
+
+#gamecss {
+  margin-left: 50%
+  border-left: 1px;
+  padding: 10px;
+  line-height: 2em;
+}
 
 
 
 
 footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
   width: 100%;
+  position: relative;
+  overflow: hidden;
   text-align: center;
   background-color: #27445C;
   color: white;
-  
 }
 
 
 footer p {
-  margin: 0px;
-  padding: 0px;
+  font-size: 14px;
+  margin: 1px;
+  padding: 1px;
 }
   
   
